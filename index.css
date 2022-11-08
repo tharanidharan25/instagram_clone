@@ -1,0 +1,68 @@
+html, body {
+    /* margin: 0; */
+    padding: 0;
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4em;
+    border-bottom: 1.5px solid #dad7cd;
+}
+
+main {
+    border-radius: 3px;
+}
+
+#logo {
+    width: 7em;
+}
+
+.user-avatar, .profile-pic {
+    border-radius: 50%;    
+    width: 2.6em;
+    height: 2.6em
+}
+
+.user-info {
+    display: flex;
+    padding: 0.8em;
+}
+
+.user-name, .user-loc, .likes {
+    margin: 0;
+    padding: 0.1em;
+    padding-left: 0.5em;
+}
+
+.post-img {
+    width: 100%;
+    height: 25em;;
+}
+
+.actions {
+    width: 2em;
+    padding: 0.5em 0.2em;
+}
+
+.caption {
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+}
+
+.caption p, .caption .user-name{
+    margin: 0;
+    display: inline-block;
+}
+
+.end {
+    width: 100%;
+    background-color: #e9edc9;
+    height: 1.8em;
+    border-radius: 3px;
+}
